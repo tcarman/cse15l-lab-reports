@@ -6,7 +6,7 @@
 
 **Bold**
 
-[Link](https://commonmark.org/help/)
+[Lab 2](https://tcarman.github.io/cse15l-lab-reports/Lab_2.html)
 
 ![Image]()
 
