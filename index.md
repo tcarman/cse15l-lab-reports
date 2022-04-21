@@ -4,4 +4,6 @@
 
 [Lab Report 1](https://tcarman.github.io/cse15l-lab-reports/lab-report1-week2.html)
 
+[Lab Report 2](https://tcarman.github.io/cse15l-lab-reports/lab-report2.html)
+
 
