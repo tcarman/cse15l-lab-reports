@@ -6,16 +6,18 @@ Contained here are a list of three bugs, the causes and the fixes to make a file
  
 ## Bug One
  
-![Bug One](LabReport2SS1.png)
+![Bug One Fix](LabReport2SS1.png)
+![Bug One Report](TestEmpty.png)
  
 The first bug explored here is a file without a link included at all. Before this change a file without a valid link would result in an infinite loop, only ending when manually killed or the program runs out of storage to use. The applied fix passes the loop in the event that the file lacks a link in it. Passing the below file through would result in an infinite loop.
  
-[Bug One](https://tcarman.github.io/cse15l-lab-reports/blank.html)
+[Bug One](https://github.com/tcarman/markdown-parser/blob/main/noLink.md)
  
  
 ## Bug Two
  
-![Bug Two](LabReport2SS2.png)
+![Bug Two Fix](LabReport2SS2.png)
+![Bug Two Report](TestFile.png)
  
 This screenshot covers two different bugs.
  
@@ -23,15 +25,16 @@ The first bug is a set of brackets,[], in one part of the document and a set of 
  
 The second bug fixed in this image is treating an image as a link. Since with markdown, images and links have similar, but not identical, syntax, the code can be easily confused to return the image as a link. The fix that was implemented is to see if there is an exclamation point, the character used to differentiate between an image and a link, in the file and, if it exists, if the exclamation point is in front of the brackets, which would be where it is placed if it is an image instead of a link. In this case, it would not be considered a link and thus not added to the return.
  
-Passing the below file would test both of these cases.
+Passing the below files would test both of these cases.
  
-[Bug Two](https://tcarman.github.io/cse15l-lab-reports/Bug-Two-Report2.html)
+[Bug Two](https://github.com/tcarman/markdown-parser/blob/main/test-failure.md)
  
 ## Bug Three
  
-![Bug Three](LabReport2SS3.png)
+![Bug Three Fix](LabReport2SS3.png)
+![Bug Three Report](BugThreeFix.png)
  
 The final bug being covered here is the empty line bug. With the original code, an empty line would result in an infinite loop. This line makes sure all of the characters needed for a valid link, brackets [] and parentheses (), are in the remainder of the document after the link has been added to the return list. Before adding this chunk, the code would spin, trying to find characters that did not exist, until it ran out of space and then return nothing, this shortcuts that spinning by breaking the loop. Below is a file that would have caused a bug before this change is implemented.
  
-[Bug Three](https://tcarman.github.io/cse15l-lab-reports/Bug-Three-Report2.html)
+[Bug Three](https://github.com/tcarman/markdown-parser/blob/main/test-file.md)
  
