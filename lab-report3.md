@@ -27,4 +27,4 @@ Using scp - r one can copy an entire directory in one command, which overall tak
 
 ![Running SCP](RunningSCP.png)
 ![Running Tests on SCP](TestsOnSSH.png)
-![All in one go]()
+![All in one go](OneCommand.png)
