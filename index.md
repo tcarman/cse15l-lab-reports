@@ -6,4 +6,5 @@
 
 [Lab Report 2](https://tcarman.github.io/cse15l-lab-reports/lab-report2.html)
 
+[Lab Report 3](https://tcarman.github.io/cse15l-lab-reports/lab-report3.html)
 
