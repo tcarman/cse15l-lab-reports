@@ -2,10 +2,20 @@
 
 May 22nd, 2022
 
+## Expected Results from Snippets
+Snippet1:
+![Snippet 1](Snippet1Expected.png)
+
+Snippet2:
+![Snippet 2](Snippet2Expected.png)
+
+Snippet 3:
+![Snippet 3](Snippet3Expected.png)
 ## Snippets Running on my code
 [Link to the code referenced in this section](https://github.com/tcarman/markdown-parser)
 ![The Code Snippet running on the Code I wrote with tests](SnippetOnMineInitial.png)
-
+![Snippet 1](ResultWithSnippets1%2B2.png)
+![Snippet 2](ResultWithSnippets1%2B2.png)
 Here is the initial result from running the snippets given on the code I wrote. The issues caused are from the 3rd snippet exclusivly . The first two snippets do not require any change from the code to pass with those, as it already accounted for special characters in the links and nested parenthesis. To fix the issues coming from the second one, a snippet of code that trims links down to just letters and not the spacing after the link, though this would prbabaly take more than 10 lines of code as it would also require a check to see if there is a open bracket before the next end parenthesis which would require some additional points of logic to exculde that given link from the list.
 
 ## Snippets Running on Recieved Code
