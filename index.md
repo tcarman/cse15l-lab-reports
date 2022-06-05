@@ -10,3 +10,5 @@
 
 [Lab Report 4](https://tcarman.github.io/cse15l-lab-reports/lab-report4.html)
 
+[Lab Report 5](https://tcarman.github.io/cse15l-lab-reports/lab-report5.html)
+
